@@ -1,0 +1,18 @@
+//SETTINGS STYLES
+@import 'settings/colors.scss';
+@import 'settings/variables.scss';  
+
+//CORE STYLES
+@import 'core/normalize.scss';
+@import 'core/core.scss';
+@import 'core/layout.scss'; 
+@import 'core/typography.scss'; 
+
+
+
+//MODULES STYLES
+@import 'modules/header.scss'; 
+@import 'modules/hero-section.scss'; 
+@import 'modules/neutral-section.scss';
+@import 'modules/highlight-section.scss';  
+@import 'modules/footer.scss'; 

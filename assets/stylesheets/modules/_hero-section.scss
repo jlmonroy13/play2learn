@@ -1,0 +1,25 @@
+.hero {
+	background: url('../images/bg/hero_bg.jpg') no-repeat;
+	background-size: cover;
+	padding: 16.4285em 0.7142em 0;
+	text-align: center;
+	height: 71.5vh; 
+	&__title {
+		color: $secundary-color;
+		font-size: 2.5714rem;
+		font-weight: 400;
+		margin-bottom: 30px;
+	}
+	&__description {
+		color: $secundary-color;
+		font-size: 1.4285rem;
+		font-weight: 300;
+		max-width: 464px;
+		margin: 0 auto 50px;
+	}
+}
+.primary-btn {
+	&--space {
+		margin-right: 20px;
+	}
+}

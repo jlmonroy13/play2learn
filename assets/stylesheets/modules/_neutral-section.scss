@@ -1,0 +1,81 @@
+.neutral {
+	padding: 50px;
+	text-align: center;
+	&--bg {
+		background: url('../images/bg/subscribe_bg.jpg') no-repeat;
+		background-size: cover;
+		padding: 50px 0 50px;
+	}
+	&__img {
+		margin-bottom: 20px;
+		width: 60px;
+	}
+	&__input {
+		width: 300px;
+		height: 52px;
+		margin-right: 20px;
+		padding: 0 15px;
+		font-size: 1.1428rem;
+	}
+	&__title {
+		color: $text-color;
+		font-size: 2.2857rem;
+		margin-bottom: 50px;
+		font-weight: 400;
+		&--size {
+			font-size: 1.7142rem;
+			max-width: 391px;
+			margin: 0 auto 20px;
+		}
+	}
+	&__description {
+		color: $text-color;
+		font-size: 1.4285rem;
+		max-width: 590px;
+		margin: 0 auto 60px;
+		font-weight: 300;
+		&--size {
+			font-size: 1.1428rem;
+			font-weight: 300;
+		}
+		&--position {
+			position: relative;
+    		top: 22px;
+		}
+		&--margin {
+			margin-bottom: 20px;
+		}
+	}
+	&__columns {
+		display: inline-block;
+		width: 24.5%;
+	}
+	&__icon {
+		background: url('../images/icn/whatis-sprite.png');
+		display: inline-block;
+		height: 122px;
+		width: 122px;
+		margin-bottom: 40px;
+		&--icon1 { background-position: 0px 0px;}
+		&--icon2 { background-position: 0px -132px;}
+		&--icon3 { 
+			background-position: 0px -264px;
+			position: relative;
+    		top: 22px;
+		}
+		&--icon4 { background-position: 0px -396px;}
+	}
+}
+.primary-btn {
+	&--subscribe {
+		background-color: $subscribe-color;
+		border-top: 3px solid $subscribe-color; 
+		border-bottom: 3px solid $subscribe2-color;
+		width: 141px;
+		&:hover {
+			background-color: $subscribe2-color;
+			border-top: 3px solid $subscribe2-color; 
+			border-bottom: 3px solid $subscribe-color;
+		}
+	}
+}

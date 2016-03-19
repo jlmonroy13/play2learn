@@ -1,0 +1,35 @@
+.main-footer {
+	background-color: $primary-color;
+	text-align: center;
+	padding-top: 40px;
+	&__icon {
+		background: url('../images/icn/footer-sprite.png');
+		display: inline-block;
+		width: 40px;
+		height: 40px;
+		margin: 0 10px 50px;
+		&--fb {
+			background-position: 0px 0px;
+		}
+		&--tw {
+			background-position: 0px -50px;
+		}
+		&--g {
+			background-position: 0px -100px;
+		}
+	}
+}
+.secundary-footer {
+	background-color: $secundary-footer;
+	padding: 0.7142em 0;
+	&__description {
+		color: $secundary-color;
+		font-size: 0.8571rem;
+	}
+}
+.main-nav {
+	&--position {
+		float: none;
+		margin-bottom: 30px;
+	}
+}
