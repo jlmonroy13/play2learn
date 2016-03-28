@@ -17,6 +17,9 @@
 		&--g {
 			background-position: 0px -100px;
 		}
+		@media(max-width: 1023px ) {
+	    margin: 0 10% 50px;;
+	  }
 	}
 }
 .secundary-footer {
@@ -28,8 +31,24 @@
 	}
 }
 .main-nav {
+	&__list {
+		padding: 0;
+	}
 	&--position {
 		float: none;
 		margin-bottom: 30px;
+	}
+	&--display {
+		@media(max-width: 1070px ) {
+	    display: inline-block !important;
+	  }
+	}
+	&__item {
+		&--display {
+			@media(max-width: 1023px ) {
+		    display: block !important;
+		    margin-bottom: 40px;
+		  }
+		}
 	}
 }

@@ -4,7 +4,7 @@
 	&--bg {
 		background: url('../images/bg/subscribe_bg.jpg') no-repeat;
 		background-size: cover;
-		padding: 50px 0 50px;
+		padding: 50px 20px;
 	}
 	&__img {
 		margin-bottom: 20px;
@@ -13,9 +13,13 @@
 	&__input {
 		width: 300px;
 		height: 52px;
-		margin-right: 20px;
+		margin: 0 20px 20px 0;
 		padding: 0 15px;
 		font-size: 1.1428rem;
+		@media(max-width: 538px) {
+	    margin-right: 0px;
+	    width: 90%;
+		}
 	}
 	&__title {
 		color: $text-color;
@@ -38,17 +42,6 @@
 			font-size: 1.1428rem;
 			font-weight: 300;
 		}
-		&--position {
-			position: relative;
-    		top: 22px;
-		}
-		&--margin {
-			margin-bottom: 20px;
-		}
-	}
-	&__columns {
-		display: inline-block;
-		width: 24.5%;
 	}
 	&__icon {
 		background: url('../images/icn/whatis-sprite.png');
@@ -60,8 +53,6 @@
 		&--icon2 { background-position: 0px -132px;}
 		&--icon3 { 
 			background-position: 0px -264px;
-			position: relative;
-    		top: 22px;
 		}
 		&--icon4 { background-position: 0px -396px;}
 	}
@@ -72,6 +63,9 @@
 		border-top: 3px solid $subscribe-color; 
 		border-bottom: 3px solid $subscribe2-color;
 		width: 141px;
+		@media(max-width: 538px) {
+	    width: 100%;
+		}
 		&:hover {
 			background-color: $subscribe2-color;
 			border-top: 3px solid $subscribe2-color; 
